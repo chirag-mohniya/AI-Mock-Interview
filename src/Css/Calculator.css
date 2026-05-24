@@ -1,0 +1,86 @@
+/* General body styling */
+/* General body styling */
+body {
+  font-family: "Roboto", sans-serif; /* Modern font for clean look */
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 29%); /* Deep dark background */
+  color: #dcdcdc; /* Softer light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container styling */
+.Card {
+  background: linear-gradient(145deg, #1a1a1a1f, #2a2a2a); /* Gradient for card background */
+  border-radius: 15px; /* More rounded corners for a modern feel */
+  box-shadow: 4px 4px 8px #0e0e0e, -4px -4px 8px #2e2e2e; /* Neumorphic shadow */
+  width: 350px; /* Slightly wider for better balance */
+  padding: 30px;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 28px; /* Larger font for emphasis */
+  color: #ffffff; /* Light color for heading */
+  margin-bottom: 20px;
+  font-weight: 600; /* Slightly bold */
+  text-transform: uppercase; /* Adds emphasis */
+  letter-spacing: 1px; /* Slight spacing for style */
+}
+
+/* Input fields styling */
+input[type="number"],
+select,
+button {
+  width: 85%; /* Adjusted width for better alignment */
+  padding: 10px; /* Comfortable padding */
+  margin: 15px auto; /* Proper spacing between elements */
+  border: none; /* Clean look */
+  border-radius: 10px; /* Rounded corners for inputs */
+  font-size: 15px; /* Slightly larger font */
+  background-color: #292929; /* Dark input background */
+  color: #ffffff; /* Light text */
+  display: block;
+  box-shadow: inset 2px 2px 4px #1b1b1b, inset -2px -2px 4px #3b3b3b; /* Neumorphic effect for inputs */
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Dropdown styling */
+select {
+  background-color: #292929; /* Same styling as inputs */
+}
+select:hover {
+  background: linear-gradient(145deg,#292929,#080808);
+  transform: scale(1.05); /* Same styling as inputs */
+}
+
+/* Button styling */
+button {
+  width: 85%; /* Same width as inputs */
+  padding: 10px; /* Consistent padding */
+  background: linear-gradient(145deg, #4caf50, #3a8d40); /* Gradient for button */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Rounded corners for button */
+  font-size: 15px; /* Slightly larger font */
+  cursor: pointer;
+  box-shadow: 4px 4px 6px #0e0e0e, -4px -4px 6px #2e2e2e; /* Neumorphic shadow */
+  transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth effects */
+}
+
+button:hover {
+  background: linear-gradient(145deg, #3a8d3f59, #2e73345c); /* Darker green hover */
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Result paragraph styling */
+p {
+  font-size: 18px; /* Keep it readable */
+  color: #dcdcdc; /* Softer light text */
+  margin-top: 20px;
+  font-style: italic; /* Add a touch of style */
+}
